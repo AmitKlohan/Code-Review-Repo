@@ -1,102 +1,78 @@
-
 body {
-    background-color: rgb(131, 184, 184);
-    margin: 10%;
+  margin: 10%;
+  background-color: darkcyan;
 }
 
 main {
-    width: 70%;
-    background-color: blanchedalmond;
-    margin: auto;
-    text-align: center;
-    padding: 2%;
+  width: 70%;
+  background-color: blanchedalmond;
+  margin: auto;
+  text-align: center;
+  padding: 2%;
 }
 
 #tribute-info {
-    text-align: left;
-    padding: 5%;
-
-}
-
-#title {
-    text-align: center;
-    text-shadow: 3px 3px 8px black;
-    font-size: 10vh;
+  text-align: left;
+  padding: 5%;
 }
 
 img {
+  display: block;
+  margin: auto;
+}
 
-    display: block;
-    margin: auto;
-   
-    
-  }
-
-  #image{
-    
-    max-width: 100%;
-    height: auto;
-  }
-
-
-#img-caption {
-    font-size: 18px;
-    font-weight: bold;
-    color: brown;
+#image {
+  max-width: 100%;
+  height: auto;
 }
 
 h1.title-ariel {
-    color: black;
-    font-size: 40px;
-    text-align: center;
-    text-shadow: 4px 4px 10px black;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 4px 4px 10px black;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-#linked{
-    color: blue;
-    font-size: 20px;
-    padding: 2px;
-    }
-    #in{
-    background-color: blue;
-    color: white;
-    font-size: 20px;
-    border-radius: 3px;
-    padding: 2px;
-    }
-
-    #copyright{
-        color: black;
-        font-size: 20px;
-        font-weight: bold;
-        }
-
-body{
-background-color: darkcyan;
-
+#linked {
+  color: blue;
+  font-size: 20px;
+  padding: 2px;
 }
- #title{
-     text-align: center;
-     font-size: 10vh;
-     text-shadow: 3px 3px 8px black;
- } 
- #img-caption{
-     font-size: 25px;
-     font-weight: bold;
-     margin-left: 10%;
-     color: brown;
 
- }
- div #tribute-info{
-     margin: 10px;
-     margin-top: 10px;
-     background-color: rgb(184, 236, 184);
-     padding: 20px 20px;
+#in {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 2px;
+}
 
- }
- 
-  
+#copyright {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#title {
+  text-align: center;
+  font-size: 10vh;
+  text-shadow: 3px 3px 8px black;
+}
+
+#img-caption {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10%;
+  color: brown;
+}
+
+div #tribute-info {
+  margin: 10px;
+  margin-top: 10px;
+  background-color: rgb(184, 236, 184);
+  padding: 20px 20px;
+}
